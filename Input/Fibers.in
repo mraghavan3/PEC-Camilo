@@ -1,0 +1,13 @@
+&input
+r_bead = 1.54E-005   ![m]    Fiber radius!18.8e-06 
+viscosity=100        ![Pa*s] Viscosity 
+dt=1e-4              ![s]    Time step
+nbr_intgr=400000     ![-]    Number of time steps
+writ_freq=50        ![-]    File writing frequency
+E_Young=1.46E+010    ![Pa]   Elastic Modulus
+L_seg     =0.000169  ![m]    Characteristic Segment Length  
+max_alpha =6.60E-001 ![rad]  Maximum angle breakage
+break_freq=50      ![-]    Number of steps between checking for damage
+nbr_neighbors=2    ![-]    Number of neighbors per cylinder
+gamma_dot=100        ![1/s]  Characteristic shear rate
+/       		
